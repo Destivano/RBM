@@ -1,0 +1,42 @@
+{
+  "experiment": "fig3_datasize",
+  "seed": 0,
+  "architecture": {
+    "layer_sizes": [
+      784,
+      500,
+      500
+    ],
+    "num_classes": 10
+  },
+  "hyperparameters": {
+    "rbm_epochs": 100,
+    "dnn_epochs": 200,
+    "lr": 0.1,
+    "batch_size": 128
+  },
+  "train_sizes": [
+    1000,
+    3000,
+    7000,
+    10000,
+    30000,
+    60000
+  ],
+  "pretrained_test_errors": [
+    0.0904,
+    0.0557,
+    0.0402,
+    0.0353,
+    0.0224,
+    0.0186
+  ],
+  "random_test_errors": [
+    0.1744,
+    0.1234,
+    0.0935,
+    0.0801,
+    0.0382,
+    0.0265
+  ]
+}

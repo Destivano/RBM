@@ -1,0 +1,4 @@
+width,pretrained_test_error,random_test_error
+100,0.0307,0.0276
+300,0.02,0.0262
+700,0.0198,0.0273

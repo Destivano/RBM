@@ -1,0 +1,26 @@
+{
+  "experiment": "mnist_compare",
+  "seed": 0,
+  "architecture": {
+    "layer_sizes": [
+      784,
+      500,
+      500
+    ],
+    "num_classes": 10
+  },
+  "hyperparameters": {
+    "rbm_epochs": 100,
+    "dnn_epochs": 200,
+    "lr": 0.1,
+    "batch_size": 128
+  },
+  "pretrained": {
+    "train_error": 0.00065,
+    "test_error": 0.018
+  },
+  "random": {
+    "train_error": 0.00025,
+    "test_error": 0.0264
+  }
+}

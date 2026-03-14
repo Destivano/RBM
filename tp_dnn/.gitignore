@@ -4,9 +4,9 @@ data/raw/binary_alpha_digits/*
 data/processed/*
 
 # Outputs (keep folder structure via .gitkeep)
-outputs/logs/*
-outputs/figures/*
-outputs/samples/*
+#outputs/logs/*
+#outputs/figures/*
+#outputs/samples/*
 
 # Keep .gitkeep files
 !**/.gitkeep

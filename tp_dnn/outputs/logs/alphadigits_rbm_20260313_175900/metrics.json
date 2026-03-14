@@ -1,0 +1,14 @@
+{
+  "experiment": "alphadigits_rbm",
+  "seed": 0,
+  "architecture": {
+    "n_visible": 320,
+    "n_hidden": 200
+  },
+  "hyperparameters": {
+    "epochs": 100,
+    "lr": 0.1,
+    "batch_size": 128
+  },
+  "final_reconstruction_mse": 26.38833931164864
+}

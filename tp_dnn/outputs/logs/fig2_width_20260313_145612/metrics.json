@@ -1,0 +1,29 @@
+{
+  "experiment": "fig2_width",
+  "seed": 0,
+  "architecture": {
+    "n_hidden_layers": 2,
+    "num_classes": 10
+  },
+  "hyperparameters": {
+    "rbm_epochs": 100,
+    "dnn_epochs": 200,
+    "lr": 0.1,
+    "batch_size": 128
+  },
+  "widths": [
+    100,
+    300,
+    700
+  ],
+  "pretrained_test_errors": [
+    0.0307,
+    0.02,
+    0.0198
+  ],
+  "random_test_errors": [
+    0.0276,
+    0.0262,
+    0.0273
+  ]
+}
