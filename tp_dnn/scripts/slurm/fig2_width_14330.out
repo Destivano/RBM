@@ -1,0 +1,36 @@
+=== Running experiment: fig2_width ===
+Device: cuda
+
+==================================================
+  Hidden width: 100
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 100)
+
+>>> Pretraining RBM layer 2/2  (100 -> 100)
+  Pretrained test error: 0.0307
+  Random     test error: 0.0276
+
+==================================================
+  Hidden width: 300
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 300)
+
+>>> Pretraining RBM layer 2/2  (300 -> 300)
+  Pretrained test error: 0.0200
+  Random     test error: 0.0262
+
+==================================================
+  Hidden width: 700
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 700)
+
+>>> Pretraining RBM layer 2/2  (700 -> 700)
+  Pretrained test error: 0.0198
+  Random     test error: 0.0273
+
+Figure saved to outputs/figures/fig2_width.png
+Outputs saved to /home/ensta/ensta-arous/dl2/tp_dnn/outputs/logs/fig2_width_20260313_145612
+=== Finished: fig2_width ===

@@ -1,0 +1,6 @@
+=== Running experiment: alphadigits_rbm ===
+Device: cuda
+AlphaDigits data: torch.Size([390, 320])
+Final reconstruction MSE: 26.3883
+Outputs saved to /home/ensta/ensta-arous/dl2/tp_dnn/outputs/logs/alphadigits_rbm_20260313_175900
+=== Finished: alphadigits_rbm ===

@@ -1,0 +1,66 @@
+=== Running experiment: fig3_datasize ===
+Device: cuda
+
+==================================================
+  Training samples: 1000
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+  Pretrained test error: 0.0904
+  Random     test error: 0.1744
+
+==================================================
+  Training samples: 3000
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+  Pretrained test error: 0.0557
+  Random     test error: 0.1234
+
+==================================================
+  Training samples: 7000
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+  Pretrained test error: 0.0402
+  Random     test error: 0.0935
+
+==================================================
+  Training samples: 10000
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+  Pretrained test error: 0.0353
+  Random     test error: 0.0801
+
+==================================================
+  Training samples: 30000
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+  Pretrained test error: 0.0224
+  Random     test error: 0.0382
+
+==================================================
+  Training samples: 60000
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+  Pretrained test error: 0.0186
+  Random     test error: 0.0265
+
+Figure saved to outputs/figures/fig3_datasize.png
+Outputs saved to /home/ensta/ensta-arous/dl2/tp_dnn/outputs/logs/fig3_datasize_20260313_154849
+=== Finished: fig3_datasize ===

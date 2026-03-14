@@ -1,0 +1,54 @@
+=== Running experiment: fig1_layers ===
+Device: cuda
+
+==================================================
+  Hidden layers: 2
+==================================================
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+  Pretrained test error: 0.0178
+  Random     test error: 0.0261
+
+==================================================
+  Hidden layers: 3
+==================================================
+
+>>> Pretraining RBM layer 1/3  (784 -> 500)
+
+>>> Pretraining RBM layer 2/3  (500 -> 500)
+
+>>> Pretraining RBM layer 3/3  (500 -> 500)
+  Pretrained test error: 0.0159
+  Random     test error: 0.0318
+
+==================================================
+  Hidden layers: 4
+==================================================
+
+>>> Pretraining RBM layer 1/4  (784 -> 500)
+
+>>> Pretraining RBM layer 2/4  (500 -> 500)
+
+>>> Pretraining RBM layer 3/4  (500 -> 500)
+
+>>> Pretraining RBM layer 4/4  (500 -> 500)
+  Pretrained test error: 0.0163
+  Random     test error: 0.0423
+
+==================================================
+  Hidden layers: 5
+==================================================
+
+>>> Pretraining RBM layer 1/5  (784 -> 500)
+
+>>> Pretraining RBM layer 2/5  (500 -> 500)
+
+>>> Pretraining RBM layer 3/5  (500 -> 500)
+
+>>> Pretraining RBM layer 4/5  (500 -> 500)
+
+>>> Pretraining RBM layer 5/5  (500 -> 500)
+  Pretrained test error: 0.0157
+  Random     test error: 0.8865

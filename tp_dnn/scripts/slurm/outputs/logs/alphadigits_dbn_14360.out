@@ -1,0 +1,9 @@
+=== Running experiment: alphadigits_dbn ===
+Device: cuda
+AlphaDigits data: torch.Size([390, 320])
+
+>>> Pretraining RBM layer 1/2  (320 -> 200)
+
+>>> Pretraining RBM layer 2/2  (200 -> 100)
+Outputs saved to /home/ensta/ensta-arous/dl2/tp_dnn/outputs/logs/alphadigits_dbn_20260313_180108
+=== Finished: alphadigits_dbn ===

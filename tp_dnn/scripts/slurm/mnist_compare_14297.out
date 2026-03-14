@@ -1,0 +1,17 @@
+=== Running experiment: mnist_compare ===
+Device: cuda
+
+=== DBN Pretraining ===
+
+>>> Pretraining RBM layer 1/2  (784 -> 500)
+
+>>> Pretraining RBM layer 2/2  (500 -> 500)
+
+=== Training pretrained DNN ===
+
+=== Training random DNN ===
+
+Pretrained  – train error: 0.0006, test error: 0.0180
+Random init – train error: 0.0003, test error: 0.0264
+Outputs saved to /home/ensta/ensta-arous/dl2/tp_dnn/outputs/logs/mnist_compare_20260312_154234
+=== Finished: mnist_compare ===
