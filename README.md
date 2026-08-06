@@ -7,6 +7,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=plotly&logoColor=white)](https://matplotlib.org/)
 [![Dataset](https://img.shields.io/badge/Datasets-MNIST%20%7C%20Binary%20AlphaDigits-8A2BE2?style=flat)](tp_dnn)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
 
 Deep-learning lab (TP) implementing and comparing **Restricted Boltzmann Machines (RBM)**, **Deep Belief Networks (DBN)**, and **Deep Neural Networks (DNN)** in PyTorch, applied to the **Binary AlphaDigits** and **MNIST** datasets.
 
@@ -167,3 +168,9 @@ Each experiment writes logs, metrics (`metrics.json`), CSV results, and figures/
 
 - Default hyperparameters (epochs, learning rate, batch size, layer widths, experiment sweep grids, random seed) are centralized in `tp_dnn/src/config.py`.
 - `RBM.generate` and `DBN.generate` (defined directly on the model classes) are unimplemented stubs (`raise NotImplementedError`) in this snapshot of the code. Sample generation for the `alpha_rbm`/`alpha_dbn` experiments is instead performed via free-running Gibbs sampling helper functions (`sample_rbm` in `tp_dnn/src/training/rbm_trainer.py`, and the equivalent in `dbn_trainer.py`), which start from random binary visible vectors and alternate v→h→v for a fixed number of steps. Generated sample images from these runs are saved under `tp_dnn/outputs/samples/`.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
